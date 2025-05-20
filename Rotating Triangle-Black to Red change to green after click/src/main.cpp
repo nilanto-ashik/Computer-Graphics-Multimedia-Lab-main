@@ -135,7 +135,7 @@ int main()
         int timeLoc = glGetUniformLocation(shaderProgram, "timeValue");
         glUniform1f(timeLoc, redValue);
 
-        // Check if 'N' is pressed
+        // Check if 'A' is pressed
         bool isGreen = glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS;
         int greenLoc = glGetUniformLocation(shaderProgram, "isGreen");
         glUniform1i(greenLoc, isGreen);
